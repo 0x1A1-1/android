@@ -6,3 +6,9 @@ ImageResource - 4 ways to include pics ( xml, java resource, java resource v2, j
 OptionsMenu - All you can think options[ list, icon, run time generated item list ]
 AddActivity - navigate between activities within app/ talking to other apps( emailing, opening browser)
 CustomizeList - List of items ( text, price, image [from assets])
+Plain Ol's Note - (Notetaking app with SQLlite)
+
+
+Exp:
+1.To run Android Device Monitor on files, first go under SDK and ./adb shell,
+use chmod 777 + whatever you want to gain permission
