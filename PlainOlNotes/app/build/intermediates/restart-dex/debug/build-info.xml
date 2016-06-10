@@ -4,27 +4,27 @@
     api-level="19"
     density="xxhdpi"
     format="7"
-    timestamp="6962606230333"
+    timestamp="10115011172660"
     token="-976571750273687803" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="220" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="25" />
     <task
         name="verifier"
-        duration="0" />
+        duration="1" />
 
     <artifact
         location="/home/cigarent/Desktop/PlainOlNotes/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="6962606230333" >
+    <build timestamp="10115011172660" >
         <artifact
             location="/home/cigarent/Desktop/PlainOlNotes/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
