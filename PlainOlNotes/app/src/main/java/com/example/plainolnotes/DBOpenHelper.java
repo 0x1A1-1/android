@@ -4,20 +4,20 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-/**
- * Created by cigarent on 6/6/16.
- */
-public class DBOpenHelper extends SQLiteOpenHelper {
+public class DBOpenHelper extends SQLiteOpenHelper{
 
     //Constants for db name and version
-    private static final String DATABASE_NAME = "notes.db"; //must include extension
-    private static final int DATABASE_VERSION = 1; //changes in db structures
+    private static final String DATABASE_NAME = "notes.db";
+    private static final int DATABASE_VERSION = 1;
 
     //Constants for identifying table and columns
     public static final String TABLE_NOTES = "notes";
     public static final String NOTE_ID = "_id";
     public static final String NOTE_TEXT = "noteText";
     public static final String NOTE_CREATED = "noteCreated";
+
+    public static final String[] ALL_COLUMNS =
+            {NOTE_ID, NOTE_TEXT, NOTE_CREATED};
 
     //SQL to create table
     private static final String TABLE_CREATE =
@@ -38,7 +38,7 @@ public class DBOpenHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        db.execSQL("DROP TABLE IF EXISTs " + TABLE_NOTES);
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_NOTES);
         onCreate(db);
     }
 }

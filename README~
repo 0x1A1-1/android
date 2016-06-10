@@ -1,7 +1,0 @@
-Play ground for Android Dev - Summer 2016
-
-Hello World - As easy as it seems
-TextValue - Button alignment, Scroll view, Snackbar and Toaster
-ImageResource - 4 ways to include pics ( xml, java resource, java resource v2, java assets)
-OptionsMenu - All you can think options[ list, icon, run time generated item list ]
-AddActivity - navigate between activities within app/ talking to other apps( emailing, opening browser)
