@@ -2030,8 +2030,9 @@ containing a value of this type.
         public static final int action_bar_subtitle=0x7f0c003b;
         public static final int action_bar_title=0x7f0c003a;
         public static final int action_context_bar=0x7f0c0058;
-        public static final int action_create_sample=0x7f0c0078;
-        public static final int action_delete_all=0x7f0c0079;
+        public static final int action_create_sample=0x7f0c0079;
+        public static final int action_delete=0x7f0c0078;
+        public static final int action_delete_all=0x7f0c007a;
         public static final int action_divider=0x7f0c006f;
         public static final int action_menu_divider=0x7f0c0002;
         public static final int action_menu_presenter=0x7f0c0003;
@@ -2205,7 +2206,8 @@ containing a value of this type.
         public static final int support_simple_spinner_dropdown_item=0x7f040031;
     }
     public static final class menu {
-        public static final int menu_main=0x7f0d0000;
+        public static final int menu_editor=0x7f0d0000;
+        public static final int menu_main=0x7f0d0001;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
@@ -2228,16 +2230,19 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with=0x7f06000b;
         public static final int abc_shareactionprovider_share_with_application=0x7f06000c;
         public static final int abc_toolbar_collapse_description=0x7f060010;
-        public static final int all_deleted=0x7f060011;
-        public static final int app_name=0x7f060012;
-        public static final int appbar_scrolling_view_behavior=0x7f060013;
-        public static final int are_you_sure=0x7f060014;
-        public static final int create_sample_data=0x7f060015;
-        public static final int delete_all_notes=0x7f060016;
-        public static final int new_note=0x7f060017;
-        public static final int note_updated=0x7f060018;
-        public static final int status_bar_notification_info_overflow=0x7f060019;
-        public static final int title_activity_editor=0x7f06001a;
+        public static final int action_delete=0x7f060011;
+        public static final int all_deleted=0x7f060012;
+        public static final int app_name=0x7f060013;
+        public static final int appbar_scrolling_view_behavior=0x7f060014;
+        public static final int are_you_sure=0x7f060015;
+        public static final int create_sample_data=0x7f060016;
+        public static final int delete_all_notes=0x7f060017;
+        public static final int enter_note_here=0x7f060018;
+        public static final int new_note=0x7f060019;
+        public static final int note_deleted=0x7f06001a;
+        public static final int note_updated=0x7f06001b;
+        public static final int status_bar_notification_info_overflow=0x7f06001c;
+        public static final int title_activity_editor=0x7f06001d;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f080075;

@@ -1,8 +1,4 @@
-CHANGED,/home/cigarent/Desktop/PlainOlNotes/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/plainolnotes/R$styleable$override.class
-CHANGED,/home/cigarent/Desktop/PlainOlNotes/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/plainolnotes/R$string$override.class
+CHANGED,/home/cigarent/Desktop/PlainOlNotes/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/plainolnotes/MainActivity$2$override.class
 CHANGED,/home/cigarent/Desktop/PlainOlNotes/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
-CHANGED,/home/cigarent/Desktop/PlainOlNotes/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/plainolnotes/EditorActivity$override.class
-CHANGED,/home/cigarent/Desktop/PlainOlNotes/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/plainolnotes/R$style$override.class
-CHANGED,/home/cigarent/Desktop/PlainOlNotes/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/design/R$string$override.class
-CHANGED,/home/cigarent/Desktop/PlainOlNotes/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/plainolnotes/R$override.class
-CHANGED,/home/cigarent/Desktop/PlainOlNotes/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/v7/appcompat/R$string$override.class
+CHANGED,/home/cigarent/Desktop/PlainOlNotes/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/plainolnotes/MainActivity$override.class
+CHANGED,/home/cigarent/Desktop/PlainOlNotes/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/plainolnotes/MainActivity$1$override.class
