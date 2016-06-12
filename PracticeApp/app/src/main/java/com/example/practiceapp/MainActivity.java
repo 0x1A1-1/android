@@ -1,14 +1,17 @@
 package com.example.practiceapp;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Dialog;
+import android.app.DialogFragment;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -46,8 +49,45 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        super.onOptionsItemSelected(item);
-        Toast.makeText(this, "You selected "+item.getTitle(), Toast.LENGTH_SHORT).show();
-        return true;
+        int id = item.getItemId();
+        if (id == R.id.action_Menu) {
+
+            DialogFragment myFragment = new MyDIalogFragment();
+
+            myFragment.show(getFragmentManager(),"theDialog");
+
+            return true;
+        }else if (id== R.id.exit_the_app){
+            finish();
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+
+    }
+
+    public void onGetNameClick(View view) {
+
+        Intent getNameScreenIntent = new Intent(this, SecondScreen.class);
+
+        final int result = 1;
+
+        getNameScreenIntent.putExtra("CallingActivity", "MainActivity");
+
+        startActivityForResult(getNameScreenIntent, result);
+
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        TextView userFeedback = (TextView) findViewById(R.id.user_name_message);
+
+        String prefix = (String) getText(R.string.show_name_sent_back);
+        Show returnedShow = (Show) data.getSerializableExtra("Name");
+
+        userFeedback.setText(prefix+returnedShow.getName());
+
     }
 }

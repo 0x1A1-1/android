@@ -7,7 +7,6 @@ OptionsMenu - All you can think options[ list, icon, run time generated item lis
 AddActivity - navigate between activities within app/ talking to other apps( emailing, opening browser)
 CustomizeList - List of items ( text, price, image [from assets])
 Plain Ol's Note - (Notetaking app with SQLlite)
-PracticeApp - Viking Launcher! Implement Object as Extras, also Alerts!
 
 
 Exp:

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">PracticeApp</string>
+    <string name="option_exit_text">Exit</string>
+    <string name="enter_show">Enter Your Name</string>
+    <string name="enter_show_btn">Enter</string>
+    <string name="calling_activity_msg">The calling activity was</string>
+    <string name="get_the_name_textV">Go put in your show</string>
+    <string name="show_name_sent_back">The show was&#160;</string>
+    <string name="intro_show">Intro:</string>
 </resources>
